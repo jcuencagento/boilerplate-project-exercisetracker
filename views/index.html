@@ -25,9 +25,17 @@
         <input id="date" type="text" name="date" placeholder="date (yyyy-mm-dd)" />
         <input type="submit" value="Submit" />
       </form>
+      <h3>
+        <strong>List users: </strong>
+        <p><a href="api/users">[base url]/api/users</a></p>
+      </h3>
       <p>
         <strong>GET user's exercise log: </strong>
         <code>GET /api/users/:_id/logs?[from][&amp;to][&amp;limit]</code>
+      </p>
+      <p>
+        <strong>Example GET user's exercise log: </strong>
+        <p><a href="api/users/0/logs">[base url]/api/users/0/logs</a></p>
       </p>
       <p><strong>[ ]</strong> = optional</p>
       <p><strong>from, to</strong> = dates (yyyy-mm-dd); <strong>limit</strong> = number</p>
